@@ -1,8 +1,16 @@
+import {init, exit} from "myPackage";
 
+init({
+    url:"test"
+});
 
-class Block {
-    constructor(private data:string ){}
-    static hello(){
-        return "hi";
-    }
-}
+exit(1)
+
+localStorage
+
+// class Block {
+//     constructor(private data:string ){}
+//     static hello(){
+//         return "hi";
+//     }
+// }
